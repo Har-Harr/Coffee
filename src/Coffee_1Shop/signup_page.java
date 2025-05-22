@@ -259,6 +259,17 @@ public class signup_page extends javax.swing.JFrame {
             return;
         }
         
+        if (!firstname.matches("[a-zA-Z]+")) {
+            JOptionPane.showMessageDialog(this, "First name must contain only letters.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
+        if (!lastname.matches("[a-zA-Z]+")) {
+            JOptionPane.showMessageDialog(this, "Last name must contain only letters.", "Input Error", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
+            
+         
+        
         boolean success = DatabaseConnection.registerUser(firstname, lastname, email, password);
    
         if (success) {
