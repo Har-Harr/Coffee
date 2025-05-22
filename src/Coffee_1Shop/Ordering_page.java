@@ -244,6 +244,8 @@ public class Ordering_page extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        
+        
 
         DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
         String name = OrderName.getText();
@@ -253,6 +255,11 @@ public class Ordering_page extends javax.swing.JFrame {
 
         if (name.isEmpty() || coffee.equals("Select") || qty.isEmpty()) {
             JOptionPane.showMessageDialog(this, "Please fill in all required fields.", "Input Error", JOptionPane.WARNING_MESSAGE);
+            return;
+        }
+        
+        if (!qty.matches("\\d{1,2}")) {
+            JOptionPane.showMessageDialog(this, "Please enter a valid quantity (1 to 99 only).", "Input Error", JOptionPane.ERROR_MESSAGE);
             return;
         }
 
