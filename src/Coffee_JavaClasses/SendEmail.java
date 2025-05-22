@@ -17,7 +17,7 @@ public class SendEmail {
 
     public static void sendVerificationEmail(String toEmail, String verificationCode) {
         String senderEmail = "SARRAGA.HARRYANDREW@UE.EDU.PH";
-        final String password = "zujp dzdc rvfs azpr"; 
+        final String password = "egnh bemr bwtc kxrq"; 
         
         Properties properties = new Properties();
         properties.put("mail.smtp.host", "smtp.gmail.com");

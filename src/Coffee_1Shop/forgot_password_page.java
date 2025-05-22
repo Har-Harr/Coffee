@@ -117,7 +117,7 @@ public class forgot_password_page extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Segoe UI Semibold", 0, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Verification code:");
-        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 130, -1, -1));
+        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 160, -1, -1));
 
         EC.setText("Confirm");
         EC.addActionListener(new java.awt.event.ActionListener() {
@@ -125,7 +125,7 @@ public class forgot_password_page extends javax.swing.JFrame {
                 ECActionPerformed(evt);
             }
         });
-        jPanel2.add(EC, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 170, -1, -1));
+        jPanel2.add(EC, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 120, -1, -1));
 
         EE.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -140,14 +140,14 @@ public class forgot_password_page extends javax.swing.JFrame {
                 CVCActionPerformed(evt);
             }
         });
-        jPanel2.add(CVC, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 170, -1, -1));
+        jPanel2.add(CVC, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 220, -1, -1));
 
         VC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 VCActionPerformed(evt);
             }
         });
-        jPanel2.add(VC, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 130, 279, 25));
+        jPanel2.add(VC, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 160, 279, 25));
         jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(693, 146, -1, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Coffee_1Shop/Img3forpass.jpg"))); // NOI18N
