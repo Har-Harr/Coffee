@@ -122,7 +122,7 @@ public class Ordering_page extends javax.swing.JFrame {
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Price", "₱2,999", "₱9,599", "₱15,600", "₱20,000" }));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMinimumSize(new java.awt.Dimension(1060, 597));
+        setMinimumSize(new java.awt.Dimension(800, 380));
         setUndecorated(true);
         setResizable(false);
         getContentPane().setLayout(null);
